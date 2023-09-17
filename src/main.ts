@@ -2,6 +2,7 @@ import "./styles/index.less";
 import "uno.css";
 
 import { ViteSSG } from "vite-ssg";
+// @ts-ignore
 import App from "./App.vue";
 import NProgress from "nprogress";
 import { setupRouterScroller } from "vue-router-better-scroller";

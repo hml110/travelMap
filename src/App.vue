@@ -45,7 +45,7 @@ onKeyStroke("Escape", (e) => {
   <main class="w-full relative of-x-hidden">
 <!--    渲染一个自定义的 <Header> 组件，可能是页面的头部。-->
     <Header />
-    // 这是 Vue Router 的核心部分，用于渲染当前路由匹配到的组件。这个组件会根据当前路由动态地显示不同的内容。
+<!--     这是 Vue Router 的核心部分，用于渲染当前路由匹配到的组件。这个组件会根据当前路由动态地显示不同的内容。-->
     <router-view />
     <Footer v-if="route.path != '/travel'" />
   </main>

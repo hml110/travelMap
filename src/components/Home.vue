@@ -38,7 +38,7 @@ function toBot() {
     >
       <div
         class="relative top-35% h-16 hvr-wobble-horizontal hvr-underline-from-center"
-        @click="$router.push('/blog')"
+        @click="$router.push('/travel')"
       >
         <h1 class="title sm:font-size-8 font-size-6">
           人生本就是一场孤独的旅行_
@@ -60,9 +60,13 @@ function toBot() {
         <div class="desc">
           <p class="name">{{ item.title }}</p>
           <p class="subtitle">{{ item.subtitle }}</p>
-          <a
+<!--          <a-->
+<!--            class="btn hvr-shutter-out-horizontal bg-#8884"-->
+<!--            href="/blog?type=blog"-->
+<!--          >-->
+            <a
             class="btn hvr-shutter-out-horizontal bg-#8884"
-            href="/blog?type=blog"
+            href="/travel"
           >
             查看更多
           </a>

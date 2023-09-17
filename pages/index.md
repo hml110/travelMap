@@ -1,22 +1,6 @@
 ---
 title: home
 content:
-  - title: Work
-    subtitle: 活到老，学到老
-    type: icon
-    list:
-      - i-vscode-icons-file-type-js-official
-      - i-vscode-icons:file-type-html
-      - i-vscode-icons:file-type-cssmap
-      - i-logos:typescript-icon
-      - i-logos-react
-      - i-logos-nodejs
-      - i-vscode-icons:file-type-vue
-      - i-vscode-icons:file-type-nuxt
-      - i-tabler:brand-threejs
-      - i-vscode-icons:file-type-unocss
-      - i-mdi:unity
-      - i-vscode-icons:file-type-csharp
   - title: Travel
     subtitle: 读万卷书，行万里路
     type: img-list
