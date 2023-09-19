@@ -14,11 +14,6 @@ content:
       - /images/travel/fujian/xiamen/h_2.jpg
       - /images/travel/shanghai/1/city3.jpg
       - /images/travel/shanghai/1/me5.jpg
-  - title: Read
-    subtitle: 腹有诗书气自华
-    type: img
-    list:
-      - /images/home/read_1.png
 ---
 
 <!-- @layout-full-width -->

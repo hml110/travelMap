@@ -56,6 +56,22 @@ export default defineConfig({
       },
     }),
 
+    /**
+     * 这里就配置了vite-plugin-pages插件的路由基本信息
+     * Pages 是在 vite.config.ts 文件中注册的一个 Vite 插件。
+     * 它用于自动生成 Vue Router 的路由配置，可以使得页面文件的创建和管理更加简单。
+     * 其中 extensions 属性指定了需要被识别的页面文件的扩展名，包括 .vue 和 .md 文件。
+     * dirs 属性指定了页面文件所在的目录，这里是 pages 目录。
+     * extendRoute 方法用于扩展每一个生成的路由配置对象，对其进行个性化的定制。
+     * 此处逻辑是当路由组件是 .md 文件时，从该文件中读取元数据（frontmatter），
+     * 并将其转换为路由配置对象的 meta 属性。其中，matter 是一个第三方库，用于解析 .md 文件的元数据。
+     * 最后返回被扩展后的路由配置对象。
+     *
+     * 总体来说，这段代码的作用是自动生成路由配置，
+     * 将 .vue 和 .md 文件转换为 Vue Router 的路由配置，
+     * 并通过 extendRoute 方法对路由对象进行定制。
+     * 这样就可以更加方便地管理页面，并且可以为每个页面定义个性化的元数据。
+     */
     Pages({
       extensions: ["vue", "md"],
       dirs: "pages",
